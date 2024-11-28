@@ -14,8 +14,8 @@
       "@/*": ["*"]
     },
     "typeRoots": ["./node_modules/@types"],
-    "declaration": true,  // This enables the generation of .d.ts files
-    "declarationDir": "./dist/types"  // Optional: specify where to store the .d.ts files (default is outDir)
+    "declaration": true, // This enables the generation of .d.ts files
+    "declarationDir": "./dist/types" // Optional: specify where to store the .d.ts files (default is outDir)
   },
   "include": ["src"],
   "exclude": ["node_modules", "dist"]

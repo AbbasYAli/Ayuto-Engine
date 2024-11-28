@@ -1,28 +1,26 @@
 {
   "name": "ayuto-engine",
   "version": "1.0.0",
-  "main": "dist/index.js",      
+  "main": "dist/index.js",
   "type": "module",
-
   "directories": {
     "example": "examples",
     "test": "test"
   },
   "scripts": {
-    "build": "tsc",                    
-    "watch": "tsc --watch",             
-    "lint": "eslint .",                 
-    "lint:fix": "eslint . --fix",       
-    "prettier:check": "prettier --check .",  
-    "test": "jest",                    
-    "test:watch": "jest --watch",      
-    "test:coverage": "jest --coverage" 
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "prettier:check": "prettier --check .",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
-
   "devDependencies": {
     "@types/jest": "^29.5.14",
     "@typescript-eslint/eslint-plugin": "^8.16.0",
