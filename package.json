@@ -1,7 +1,7 @@
 {
-  "name": "project-template",
+  "name": "ayuto-engine",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",      
   "type": "module",
 
   "directories": {
@@ -9,20 +9,20 @@
     "test": "test"
   },
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
-    "prettier:check": "prettier --check .",
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage"
+    "build": "tsc",                    
+    "watch": "tsc --watch",             
+    "lint": "eslint .",                 
+    "lint:fix": "eslint . --fix",       
+    "prettier:check": "prettier --check .",  
+    "test": "jest",                    
+    "test:watch": "jest --watch",      
+    "test:coverage": "jest --coverage" 
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
+
   "devDependencies": {
     "@types/jest": "^29.5.14",
     "@typescript-eslint/eslint-plugin": "^8.16.0",
@@ -35,7 +35,6 @@
     "prettier": "^3.4.1",
     "ts-jest": "^29.2.5",
     "ts-node": "^10.9.2",
-    "typescript": "^5.7.2",
-    "vite": "^6.0.0"
+    "typescript": "^5.7.2"
   }
 }
