@@ -22,10 +22,12 @@ export default [
       prettier: prettierPlugin, // Enable Prettier plugin
     },
     rules: {
-      ...ts.configs.recommended.rules,
+      '@typescript-eslint/explicit-module-boundary-types': 'off',
+      '@typescript-eslint/no-explicit-any': 'off',
+      // Add other TypeScript specific or general rules as needed
       'prettier/prettier': 'error', // Prettier as a rule
     },
   },
-  js.configs.recommended,
-  prettier, // Disable conflicting ESLint rules
+  js.configs.recommended, // ESLint JavaScript recommended rules
+  prettier, // Prettier configuration to disable conflicting rules
 ];
